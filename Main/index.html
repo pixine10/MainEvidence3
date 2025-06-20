@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+          rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script type="importmap">
+			{
+				"imports": {
+					"three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
+          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/"
+        }
+			}
+		</script>
+  </head>
+  <body>
+    <canvas class="myCanvas"></canvas>
+    <div class="container">
+        <div class="row">
+          <div class="col-5">
+              <div class="box">
+                 <img src="resources/portfolioversion.png" class="box image"></img>
+              </div>
+          </div>
+          <div class="col">
+            <div class="box">
+              <h1 class="billo">game artist</h1>
+              <p> <span class = 'whackyfont'> Howdy! I'm Pixine,</span> <span class = 'myanmar'> a game design artist and developer specialising in pixel art, digital art, 3D modelling and game writing. I'm currently working towards my Bachelor of Arts 
+                in Game Design and Production. I create art for games in Aseprite, Krita, Photoshop and more. My coding languages include C# for Unity and Javascript.</span> </p>
+              <p class="b2">MY WORK</p>
+              <div class="row">
+                <div class="col">
+                  <div class="displayBox">
+                    <a href="gallery.html">
+                      <h1 class="whackyfont">Project Showcase</h1>
+                    </a>
+
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="displayBox">
+                    <a href="gallery.html">
+                      <h1 class="whackyfont">Gallery</h1>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script type="module" src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  </body>
+</html>
